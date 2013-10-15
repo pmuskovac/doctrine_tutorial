@@ -146,4 +146,9 @@ class Bug
         return $this->products;
     }
 
+    public function close()
+    {
+        $this->status = 'CLOSED';
+    }
+
 }
